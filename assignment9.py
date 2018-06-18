@@ -14,57 +14,57 @@ y.animal_attribute()
 
 #A9_Q2
 #OUTPUT-A,B
-#A,B
 
 #A9_Q3
 class Cop:
-    def __init__(self,nm,age,we,des):
-        self.nm=nm
-        self.age=age
-        self.we=we
-        self.des=des
+    def __init__(self, name, age, workexp, desg):
+        self.name = name
+        self.age = age
+        self.workexp = workexp
+        self.desg = desg
 
+    @classmethod
     def add(cls):
-        cls.name = input("ENTER THE NAME=")
-        cls.age = int(input("ENTER THE AGE="))
-        cls.workexp = int(input("ENTER THE WORK EXPERIENCE="))
-        cls.desg = input("ENTER THE DESIGNATION=")
+        cls.name = input("ENTER THE NAME")
+        cls.age = int(input("ENTER THE AGE"))
+        cls.workexp = int(input("ENTER THE WORK EXPERIENCE"))
+        cls.desg = input("ENTER THE DESIGNATION")
         return Cop(cls.name, cls.age, cls.workexp, cls.desg)
 
-    def display(self,nm,age,we,des):
-        print("name of a cop=" +nm)
-        print("age of a cop=" +age)
-        print("work experience of a cop="+we)
-        print("designation of a cop="+des)
+    @classmethod
+    def display(cls):
+        print("")
+        print("DETAILS ARE-->")
+        print("NAME-> " + cls.name)
+        print("AGE-> %d" % cls.age)
+        print("WORK EXPERIENCE--> %d" % cls.workexp)
+        print("DESIGNATION-->" + cls.desg)
+
     def update(self):
-        print("for updation enter details")
-        nm = input("enter name=")
-        age = input("enter age=")
-        we = input("enter work experience=")
-        des = input("enter designation=")
-        print("new name =" + nm)
-        print("new age=" + age)
-        print("new work experience=" + we)
-        print("new designation=" +des)
+        print("UPDATE DETAILS-->")
+        self.add()
+        self.display()
 
 
 class Mission(Cop):
-    def __init__(self,missionname):
-        self.missionname = missionname
-    def add_mission_details(self,missionname):
-        #self.missionname=missionname
-        print("MISSION NAME-->"+missionname)
+    def __init__(self, mission_details):
+        self.md =mission_details
+    def add_mission_details(self):
+        self.md=input("ENTER MISSION DETAILS--> ")
+        print("")
+        self.display()
+        print("MISSION DETAILS-->"+self.md)
 
-
-
-x=Cop('NAV','22','5','DC')
-y=Mission('HELLO')
-y.display('NAV','22','5','DC')
-y.add()
-y.update()
-y.add_mission_details('kapurthala')
-
-
+x = Mission("")
+obj1 = Cop("",0,0,"")
+obj1.add()
+obj1.display()
+ch = input("DO YOU WANT TO UPDATE THE DETAILS?(Y/N)")
+if ch == 'y' or ch == 'Y':
+    obj1.update()
+ch = input("DO YOU WANT TO RUN MISSION CLASS?(Y/N)")
+if ch == 'y' or ch == 'Y':
+    x.add_mission_details()
 
 #A9_Q4
 class Shape:
