@@ -82,6 +82,5 @@ class Expenditure:
 x = Expenditure()
 x.displayresult(exp,saving)
 x.calculateresult(exp,saving)
-sal=x.calculateresult(exp,saving)
 x.displaysalary(sal)
 
