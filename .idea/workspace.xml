@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f44612-23a3-4a04-b799-922deedb948a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assignment9.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads19june.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,15 +29,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="june13.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june13.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -79,17 +72,41 @@
       <file leaf-file-name="assignment8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="64" />
+            <state relative-caret-position="935">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assignment9.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="assignment9.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="1122">
               <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threads19june.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threads19june.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <folding>
+                <element signature="e#315#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assignment10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#8#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +147,8 @@
         <option value="$PROJECT_DIR$/w3l1.py" />
         <option value="$PROJECT_DIR$/assignment8.py" />
         <option value="$PROJECT_DIR$/assignment9.py" />
+        <option value="$PROJECT_DIR$/threads19june.py" />
+        <option value="$PROJECT_DIR$/assignment10.py" />
       </list>
     </option>
   </component>
@@ -166,8 +185,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assignment9">
-    <configuration name="assignment5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.assignment10">
+    <configuration name="assignment10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="assignment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +198,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +240,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="classandoop june14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="threads19june" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="assignment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,7 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classandoop june14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads19june.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +277,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.assignment5" />
-      <item itemvalue="Python.classandoop june14" />
       <item itemvalue="Python.assignment8" />
       <item itemvalue="Python.w3l1" />
       <item itemvalue="Python.assignment9" />
+      <item itemvalue="Python.threads19june" />
+      <item itemvalue="Python.assignment10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assignment10" />
+        <item itemvalue="Python.threads19june" />
         <item itemvalue="Python.assignment9" />
         <item itemvalue="Python.w3l1" />
         <item itemvalue="Python.assignment8" />
-        <item itemvalue="Python.assignment5" />
-        <item itemvalue="Python.classandoop june14" />
       </list>
     </recent_temporary>
   </component>
@@ -337,20 +356,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classloop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -682,15 +687,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="64" />
+        <state relative-caret-position="935">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="1122">
           <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads19june.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding>
+            <element signature="e#315#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#8#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
